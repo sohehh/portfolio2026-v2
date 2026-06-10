@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/img/hero-bg.png')no-repeat center center;
+  background: url('../../img/hero-bg.png')no-repeat center center;
   background-size: cover;
   position: relative;
   &__txt {
@@ -51,7 +51,7 @@
       &::after {
         content: "";
         display: block;
-        background-image: url('/img/ico-arrow--gray.svg');
+        background-image: url('../../img/ico-arrow--gray.svg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 22.4px 22px;

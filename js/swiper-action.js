@@ -18,10 +18,12 @@ const projectSwiper = new Swiper(".js-project-swiper", {
         // 브라우저가 768보다 클 때
         768 : {
             slidesPerView: 2,
+            grid: { rows: 2 }
         },
         // 브라우저가 1024보다 클 때
         1024 : {
             slidesPerView: 3,
+            grid: { rows: 2 }
         }
     }
 });
